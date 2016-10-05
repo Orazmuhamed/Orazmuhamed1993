@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<!-- /**
+* VEGA HTML5 Responsive Template
+*
+* Author: Emanuele "flashedge" Manco
+* Profile: http://themeforest.net/user/flashedge
+* E-mail: hello@flashedge.net
+*
+* Version: 1.1.7
+**/ -->
+
+<!-- paulirish.com/2008/conditional-css-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width" />
+
+    <title>VEGA</title>
+
+    <!-- Included CSS Files -->
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/prettyPhoto.css">
+
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/ie.css">
+    <![endif]-->
+
+    <!-- IE Fix for HTML5 Tags -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- favicon & idevice homepage thumb -->
+    <link rel="icon" type="image/png" href="images/favicon/favicon.png"/>
+    <link rel="apple-touch-icon" href="images/favicon/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,900' rel='stylesheet' type='text/css'>
+
+    <!-- Uncomment the following line for your custom stylesheet -->
+    <!-- <link rel="stylesheet" href="css/custom.css"> -->
+
+</head>
+<body>
+
+<!-- fullscreen background slideshow start -->
+<div id="bg" class="background">
+    <ul class="bg-gallery" data-delay="8">
+        <li data-image="images/slides/01.jpg"><span></span></li>
+        <li data-image="images/slides/02.jpg"><span></span></li>
+        <li data-image="images/slides/03.jpg"><span></span></li>
+        <li data-image="images/slides/04.jpg"><span></span></li>
+        <li data-image="images/slides/05.jpg"><span></span></li>
+        <li data-image="images/slides/06.jpg"><span></span></li>
+        <li data-image="images/slides/07.jpg"><span></span></li>
+        <li data-image="images/slides/08.jpg"><span></span></li>
+    </ul>
+</div>
+<!-- fullscreen background slideshow end -->
+
+
+<!-- start main container -->
+<div id="main" data-globalscroll="false" data-mobileautofocus="true">
+
+    <!-- shiny graphics -->
+    <div class="pattern hide-on-phones"></div>
+    <div class="gradient"></div>
+
+    <!-- start container -->
+    <div class="container">
+
+        <!-- start header -->
+        <div class="row" id="header" data-fixed="false">
+
+            <div class="four columns">
+                <!-- logo, can be text or an image, at your discretion -->
+                <h1 class="logo"><a href="index.html">VEGA</a></h1>
+
+                <!-- fake loadbar -->
+                <div class="bar"></div>
+            </div>
+
+
+            <div class="eight columns">
+
+                <!-- start social icons -->
+                <div class="row">
+                    <ul class="social">
+                        <li class="facebook"><a href="http://facebook.com/emanco" target="_blank" title="facebook"></a></li>
+                        <li class="twitter"><a href="http://twitter.com/flashedge" target="_blank" title="twitter"></a></li>
+
+                    </ul>
+                </div>
+                <!-- end social icons -->
+
+
+                <!-- start navigation -->
+                <nav class="row">
+
+                    <ul class="nav-bar" data-autohide="true">
+                        <li class="has-flyout">
+                            <a href="works.html" class="main">Works</a>
+                            <div class="flyout-toggle"><span></span></div>
+
+                            <!-- start submenu -->
+                            <div class="flyout small">
+                                <ul>
+                                    <li><a href="reel.html">Showreel</a></li>
+                                    <li><a href="project.html">Portfolio</a></li>
+                                </ul>
+                            </div>
+                            <!-- end submenu -->
+                        </li>
+                        <li class="has-flyout">
+                            <a href="about.html" class="main">About</a>
+                            <div class="flyout-toggle"><span></span></div>
+
+                            <!-- start submenu -->
+                            <div class="flyout small">
+                                <ul>
+                                    <li><a href="team.html">Team</a></li>
+                                    <li><a href="awards.html">Awards</a></li>
+                                    <li><a href="mission.html">Mission</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                </ul>
+                            </div>
+                            <!-- end submenu -->
+                        </li>
+                        <li>
+                            <a href="contact.html" class="main">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- end navigation -->
+
+
+        </div>
+        <!-- header end -->
+    </div>
+    <!-- container end -->
+
+
+    <!-- start content -->
+    <div id="content">
+
+        <div class="wrapper">
+
+            <!-- Used for ajax transition -->
+            <div class="old"></div>
+
+            <!-- start new container -->
+            <div class="new">
+                <!-- NOTICE: Do NOT edit above. Keep the structure before this part as-is. -->
+
+
+
+                <!-- ======================================================== -->
+                <!-- start target container, this part is loaded dynamically! -->
+                <div class="target loading">
+
+                    <div class="fullvideo" data-fit="false">
+
+                        <!-- Vimeo example of fullscreen, autoplaying video -->
+                        <div class="flex-video widescreen vimeo" data-id="36329348" data-autoplay="true"></div>
+
+                        <!-- YouTube example -->
+                        <!-- <div class="row flex-video widescreen youtube" data-id="LuvpgLII7PY" data-autoplay="true"></div> -->
+
+                    </div>
+
+                    <div class="close">Close</div>
+                </div>
+                <!-- end target container, this part is loaded dynamically! -->
+                <!-- ====================================================== -->
+
+
+
+
+                <!-- NOTICE: Do NOT edit below. Keep the structure after this part as-is. -->
+            </div>
+            <!-- end new container -->
+
+        </div>
+
+    </div>
+    <!-- end content -->
+
+
+    <footer id="footer">
+
+        <!-- music player start -->
+        <div id="musicPlayer" class="hide-on-phones">
+            <audio preload autoplay></audio> <!-- add/remove attribute 'autoplay' for your convenience -->
+            <ul class="row">
+                <li><p data-src="media/audio/adg3com_freeform.mp3">♫ Freeform by <a href="http://audiojungle.net/user/ADG3studios/portfolio" target="_blank">ADG3Studios</a> · Available on <a href="http://audiojungle.net" target="_blank">AudioJungle</a></p></li>
+                <li><p data-src="media/audio/adg3com_cloudlessdays.mp3">♫ Cloudless Days by <a href="http://audiojungle.net/user/ADG3studios/portfolio" target="_blank">ADG3Studios</a> · Available on <a href="http://audiojungle.net" target="_blank">AudioJungle</a></p></li>
+            </ul>
+        </div>
+        <!-- music player end -->
+
+    </footer>
+
+
+</div>
+<!-- end main container -->
+
+
+<!-- Included javascript libraries -->
+<script src="js/jquery.min.js"></script>
+<script src="js/modernizr.foundation.js"></script>
+<script src="js/foundation.js"></script>
+<script src="js/app.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="js/audiojs/audio.min.js"></script>
+<script src="js/jquery.plugins.js"></script>
+
+
+<script src="js/net.flashedge.app.min.js"></script>
+
+</body>
+</html>

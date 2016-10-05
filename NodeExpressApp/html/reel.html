@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+ lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width" />
+
+    <title>VEGA</title>
+
+    <!-- Included CSS Files -->
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/prettyPhoto.css">
+
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/ie.css">
+    <![endif]-->
+
+    <!-- IE Fix for HTML5 Tags -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- favicon & idevice homepage thumb -->
+    <link rel="icon" type="image/png" href="images/favicon/favicon.png"/>
+    <link rel="apple-touch-icon" href="images/favicon/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,900' rel='stylesheet' type='text/css'>
+
+    <!-- Uncomment the following line for your custom stylesheet -->
+    <!-- <link rel="stylesheet" href="css/custom.css"> -->
+
+</head>
+<body>
+
+<!-- fullscreen background slideshow start -->
+<div id="bg" class="background">
+    <ul class="bg-gallery" data-delay="8">
+        <li data-image="images/slides/01.jpg"><span></span></li>
+        <li data-image="images/slides/02.jpg"><span></span></li>
+        <li data-image="images/slides/03.jpg"><span></span></li>
+        <li data-image="images/slides/04.jpg"><span></span></li>
+        <li data-image="images/slides/05.jpg"><span></span></li>
+        <li data-image="images/slides/06.jpg"><span></span></li>
+        <li data-image="images/slides/07.jpg"><span></span></li>
+        <li data-image="images/slides/08.jpg"><span></span></li>
+    </ul>
+</div>
+<!-- fullscreen background slideshow end -->
+
+
+<!-- start main container -->
+<div id="main" data-globalscroll="false" data-mobileautofocus="true">
+
+<!-- shiny graphics -->
+<div class="pattern hide-on-phones"></div>
+<div class="gradient"></div>
+
+<!-- start container -->
+<div class="container">
+
+    <!-- start header -->
+    <div class="row" id="header" data-fixed="false">
+
+        <div class="four columns">
+            <!-- logo, can be text or an image, at your discretion -->
+            <h1 class="logo"><a href="index.html">VEGA</a></h1>
+
+            <!-- fake loadbar -->
+            <div class="bar"></div>
+        </div>
+
+
+        <div class="eight columns">
+
+            <!-- start social icons -->
+            <div class="row">
+                <ul class="social">
+                    <li class="facebook"><a href="http://facebook.com/emanco" target="_blank" title="facebook"></a></li>
+                    <li class="twitter"><a href="http://twitter.com/flashedge" target="_blank" title="twitter"></a></li>
+
+                   
+              
+                </ul>
+            </div>
+            <!-- end social icons -->
+
+
+            <!-- start navigation -->
+            <nav class="row">
+
+                <ul class="nav-bar" data-autohide="true">
+                    <li class="has-flyout">
+                        <a href="works.html" class="main">Работа</a>
+                        <div class="flyout-toggle"><span></span></div>
+
+                        <!-- start submenu -->
+                        <div class="flyout small">
+                            <ul>
+                                <li><a href="reel.html">Showreel</a></li>
+                                <li><a href="project.html">Portfolio</a></li>
+                            </ul>
+                        </div>
+                        <!-- end submenu -->
+                    </li>
+                    <li class="has-flyout">
+                        <a href="about.html" class="main">Обо мне</a>
+                        <div class="flyout-toggle"><span></span></div>
+
+                        <!-- start submenu -->
+                        <div class="flyout small">
+                            <ul>
+                                <li><a href="team.html">Темы</a></li>
+                                <li><a href="awards.html">Награды</a></li>
+                                <li><a href="mission.html">Мисий</a></li>
+                                <li><a href="blog.html">Блог</a></li>
+                            </ul>
+                        </div>
+                        <!-- end submenu -->
+                    </li>
+                    <li>
+                        <a href="contact.html" class="main">Контакт</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- end navigation -->
+
+
+    </div>
+    <!-- header end -->
+</div>
+<!-- container end -->
+
+
+<!-- start content -->
+<div id="content">
+
+    <div class="wrapper">
+
+        <!-- Used for ajax transition -->
+        <div class="old"></div>
+
+        <!-- start new container -->
+        <div class="new">
+            <!-- NOTICE: Do NOT edit above. Keep the structure before this part as-is. -->
+
+
+
+            <!-- ======================================================== -->
+            <!-- start target container, this part is loaded dynamically! -->
+            <div class="target docked">
+
+                <div class="container subheader">
+                    <header class="row">
+                        <hgroup>
+                            <h1 class="headline"><span>Посмотрите, что мы сделали</span></h1>
+                        </hgroup>
+                    </header>
+                </div>
+
+                <div class="gap"></div>
+                <div id="shell" class="wide" data-iscroll="true">
+                    <div id="scroller" class="container">
+
+                        <div class="row">
+                            <div class="seven phone-four columns">
+
+                                <!-- Vimeo Video can be configured by simply copying the id below here! -->
+                                <div class="row flex-video widescreen vimeo" data-id="36329348"></div>
+
+                            </div>
+
+                            <aside class="five phone-four columns">
+                                <hgroup>
+                                    <h4>Showreel</h4>
+                                    <h3>Выбор наших лучших работ</h3>
+                                </hgroup>
+
+                                <p> В сфере информационных технологий появляется всё больше новых компаний. Зачастую их владельцы получают крупный доход, а сама сфера пополняется свежими, интересными разработками. Некоторые из таких компаний обретают мировую известность и становятся заманчивым местом работы для IT-специалистов. Команда авторитетного аналитического агентства «BusinessInsider» изучила крупнейшие IT-компании и составила рейтинг самых высоких годовых зарплат их программистов. Кто же оказался в числе «зарплатных тяжеловесов»?
+                                </p>
+
+<p>1. Juniper Networks – уверенно развивающаяся мобильная компания, стабильно увеличивает свой доход на протяжении 10 лет. Зарплата её работников –  $128,378. Здесь сосредоточены одни из самых талантливых разработчиков, а их возраст составляет в среднем всего 25-28 лет.
+
+2. Google – не нуждающаяся в представлении инновационная компания, разработавшая крупную поисковую систему и множество других интернет-продуктов. Её программисты получают в среднем $124,520. На работе они могут не только трудиться, но и отдыхать и даже ночевать. Для этого здесь есть абсолютно всё: бесплатное питание в местных столовых и кафе, места для сна, душ, тренажёрный зал, массажная и даже парикмахерская.
+
+3. Twitter – компания, создавшая сервис для публичного обмена информационными сообщениями. Здесь разработчики получают зарплату в $120,768. Интересно, что при трудоустройстве каждый работник вправе выбрать мебель и компьютер на свой вкус, поэтому офис выглядит очень многоликим и интересным.</p>
+                            </aside>
+                        </div>
+
+                        <div class="row copy">
+                            <p>©2012 VEGA HTML5 Responsive Template created by <a href="http://themeforest.net/user/flashedge" target="_blank">flashedge</a> - <a href="http://twitter.com/flashedge" target="_blank">Follow me</a> - <a href="http://www.facebook.com/emanco" target="_blank">Become a fan</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- end target container, this part is loaded dynamically! -->
+            <!-- ====================================================== -->
+
+
+
+
+
+
+            <!-- NOTICE: Do NOT edit below. Keep the structure after this part as-is. -->
+        </div>
+        <!-- end new container -->
+
+    </div>
+
+</div>
+<!-- end content -->
+
+
+<footer id="footer">
+
+    <!-- music player start -->
+    <div id="musicPlayer" class="hide-on-phones">
+        <audio preload autoplay></audio> <!-- add/remove attribute 'autoplay' for your convenience -->
+        <ul class="row">
+            <li><p data-src="media/audio/adg3com_freeform.mp3">♫ Freeform by <a href="http://audiojungle.net/user/ADG3studios/portfolio" target="_blank">ADG3Studios</a> · Available on <a href="http://audiojungle.net" target="_blank">AudioJungle</a></p></li>
+            <li><p data-src="media/audio/adg3com_cloudlessdays.mp3">♫ Cloudless Days by <a href="http://audiojungle.net/user/ADG3studios/portfolio" target="_blank">ADG3Studios</a> · Available on <a href="http://audiojungle.net" target="_blank">AudioJungle</a></p></li>
+        </ul>
+    </div>
+    <!-- music player end -->
+
+</footer>
+
+
+</div>
+<!-- end main container -->
+
+
+<!-- Included javascript libraries -->
+<script src="js/jquery.min.js"></script>
+<script src="js/modernizr.foundation.js"></script>
+<script src="js/foundation.js"></script>
+<script src="js/app.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="js/audiojs/audio.min.js"></script>
+<script src="js/jquery.plugins.js"></script>
+
+<!-- AddThis API Widget. Uncomment the row below and put data-addthis in the project page to "true", use your userid below. -->
+<!--<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=YOURUSERID"></script> -->
+
+<!-- LESS Stylesheet, Uncomment this block for debugging -->
+<!--<link rel="stylesheet/less" type="text/css" href="less/styles.less">
+<script src="js/less-1.3.0.min.js"></script>-->
+
+<!-- Where the magic happens -->
+<script src="js/net.flashedge.app.min.js"></script>
+
+<!-- IE6 Update Notice --> <!--[if lte IE 6]><script src="js/ie6/warning.js"></script><script>window.onload=function(){e("js/ie6/")}</script><![endif]-->
+
+</body>
+</html>
